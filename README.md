@@ -1,13 +1,13 @@
 # SWIFT Codes API
 Spring Boot application for storing and retrieving SWIFT codes.
 ## API Endpoints 
-GET /v1/swift-codes/{swiftCode}
+**GET /v1/swift-codes/{swiftCode}** - Returns the SWIFT code details
 
-GET /v1/swift-codes/country/{countryISO2}
+**GET /v1/swift-codes/country/{countryISO2}** - Returns all SWIFT codes for a specific country.
 
-POST /v1/swift-codes
+**POST /v1/swift-codes** - Adds a new SWIFT code to the database.
 
-DELETE /v1/swift-codes/{swiftCode}
+**DELETE /v1/swift-codes/{swiftCode}** - Deletes the SWIFT code record from the database.
 
 ## Start-up instruction:
 Clone repository:
